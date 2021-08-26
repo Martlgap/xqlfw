@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<!--
+Template Name: Chillaid
+Author: <a href="https://www.os-templates.com/">OS Templates</a>
+Author URI: https://www.os-templates.com/
+Copyright: OS-Templates.com
+Licence: Free to use under our free template licence terms
+Licence URI: https://www.os-templates.com/template-terms
+-->
+<html lang="">
+<!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
+<head>
+<title>XQLFW</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body id="top">
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row1">
+  <header id="header" class="hoc clear">
+    <div id="logo" class="fl_left"> 
+      <!-- ################################################################################################ -->
+      <h1 class="logoname"><a href="index.html">X<span>Q</span>LFW</a></h1>
+      <!-- ################################################################################################ -->
+    </div>
+    <nav id="mainav" class="fl_right"> 
+      <!-- ################################################################################################ -->
+      <ul class="clear">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="pages/examples.html">Examples</a></li>
+        <li><a href="pages/download.html">Download</a></li>
+        <li><a href="https://github.com/martlgap/xqlfw">Codes</a></li>
+        <li><a href="pages/relwork.html">Related Work</a></li>
+        <li><a href="pages/citation.html">Citation</a></li>
+        <li><a href="mailto:Martin.Knoche@tum.de">Contact</a></li>
+      </ul>
+      <!-- ################################################################################################ -->
+    </nav>
+  </header>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="bgded overlay" style="background-image:url('images/titelbild.png');">
+  <div id="pageintro" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <article>
+      <h3 class="heading">Cross-Quality Labeled Faces in the Wild (XQLFW)</h3>
+      <p>An evaluation protocol for face verification focusing on a large intra-pair image quality difference.</p>
+      <footer><a class="btn" target="_blank" href="https://arxiv.org/pdf/2108.10290.pdf">see paper</a></footer>
+    </article>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <main class="hoc container clear"> 
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <section id="introblocks">
+      <ul class="nospace group elements elements-four">
+        <li class="one_quarter">
+          <article><a><i class="fas fa-user-friends"></i></a>
+            <h6 class="heading">Same Protocol as LFW</h6>
+            <p>3000 positive and 3000 negative pairs</p>
+          </article>
+        </li>
+        <li class="one_quarter">
+          <article><a><i class="fas fa-user-check"></i></a>
+            <h6 class="heading">3743 Identities</h6>
+            <p>and 7263 unique images used in 6000 pairs</p>
+          </article>
+        </li>
+        <li class="one_quarter">
+          <article><a><i class="fas fa-spinner"></i></a>
+            <h6 class="heading">Average Δ-Quality: 0.327</h6>
+            <p>shows large quality difference per pair (LFW: 0.056)</p>
+          </article>
+        </li>
+        <li class="one_quarter">
+          <article><a><i class="fas fa-venus-mars"></i></a>
+            <h6 class="heading">Same Gender and Race</h6>
+            <p>in all negative pairs - using original lfw attributes</p>
+          </article>
+        </li>
+      </ul>
+    </section>
+  </main>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row2">
+  <section class="hoc container clear">
+    <div class="sectiontitle">
+      <h6 class="heading font-x2">Abstract</h6>
+      <p align="justify" class="nospace font-xs">Real-world face recognition applications often deal with suboptimal image quality or resolution due to different capturing conditions such as various subject-to-camera distances, poor camera settings, or motion blur. This characteristic has an unignorable effect on performance. Recent cross-resolution face recognition approaches used simple, arbitrary, and unrealistic down- and up-scaling techniques to measure robustness against real-world edge-cases in image quality. Thus, we propose a new standardized benchmark dataset derived from the famous Labeled Faces in the Wild (LFW). In contrast to previous derivatives, which focus on pose, age, similarity, and adversarial attacks, our Cross-Quality Labeled Faces in the Wild (XQLFW) dataset maximizes the quality difference. It contains only more realistic synthetically degraded images when necessary. Our proposed dataset is then used to investigate further the influence of image quality on several state-of-the-art approaches. With XQLFW, we show that these models perform differently in cross-quality cases, and hence, the generalizing capability is not accurately predicted by their performance on LFW. Additionally, we report baseline accuracy with recent deep learning models explicitly trained for cross-resolution applications and evaluate the susceptibility to image quality. To encourage further research in cross-resolution face recognition and incite the assessment of image quality robustness, we publish the database and code for evaluation.</p>
+    </div>
+    <!-- ################################################################################################ -->
+  </section>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <div class="hoc container clear">
+    <div class="sectiontitle">
+      <p class="nospace font-xs">Example Images</p>
+      <h6 class="heading font-x2">Pairwise Quality Difference</h6>
+    </div>
+    <ul class="nospace group team">
+      <li class="one_half first">
+        <figure>
+          <figcaption class="heading" style="color:#FFFFFF ;background-color:#01949A">LFW</figcaption>
+          <div class="imageBox">
+            <img class="imageInn" style="border:2px solid black" src="images/images_example_lfw.png" alt="">
+            <img class="hoverImg" style="border:2px solid black" src="images/images_example_lfw_hover.png" alt="">
+          </div>
+          <figcaption class="heading">Average Δ-Quality: 0.056</figcaption>
+        </figure>
+      </li>
+      <li class="one_half">
+        <figure>
+          <figcaption class="heading" style="color:#FFFFFF ;background-color:#01949A">XQLFW</figcaption>
+          <div class="imageBox">
+            <img class="imageInn" style="border:2px solid black" src="images/images_example_xqlfw.png" alt="">
+            <img class="hoverImg" style="border:2px solid black" src="images/images_example_xqlfw_hover.png" alt="">
+          </div>
+          <figcaption class="heading">Average Δ-Quality: 0.327</figcaption>
+        </figure>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row2">
+  <section class="hoc container clear">
+    <!-- ################################################################################################ -->
+    <div class="sectiontitle">
+      <p class="nospace font-xs">Face Verification Accuracy</p>
+      <h6 class="heading font-x2">on XQLFW dataset</h6>
+    </div>
+    <ul class="pr-charts nospace group center">
+      <li class="pr-chart-ctrl" data-animate="false">
+        <div class="pr-chart" data-percent="74.22"><i></i></div>
+        <a class="piechart-url" href="https://arxiv.org/abs/1801.07698" target="_blank">ArcFace</a>
+      </li>
+      <li class="pr-chart-ctrl" data-animate="false">
+        <div class="pr-chart" data-percent="76.95"><i></i></div>
+        <a class="piechart-url" href="https://arxiv.org/abs/2103.06627" target="_blank">MagFace</a>
+      </li>
+      <li class="pr-chart-ctrl" data-animate="false">
+        <div class="pr-chart" data-percent="87.90"><i></i></div>
+        <a class="piechart-url" href="https://arxiv.org/abs/2103.14803" target="_blank">FaceTransformer</a>
+      </li>
+      <li class="pr-chart-ctrl" data-animate="false">
+        <div class="pr-chart" data-percent="83.60"><i></i></div>
+        <a class="piechart-url" href="hhttps://arxiv.org/abs/2107.03769" target="_blank">BT-M</a>
+      </li>
+      <li class="pr-chart-ctrl" data-animate="false">
+        <div class="pr-chart" data-percent="90.97"><i></i></div>
+        <a class="piechart-url" href="https://arxiv.org/abs/2107.03769" target="_blank">ST-M1</a>
+      </li>
+      <li class="pr-chart-ctrl" data-animate="false">
+        <div class="pr-chart" data-percent="90.82"><i></i></div>
+        <a class="piechart-url" href="https://arxiv.org/abs/2107.03769" target="_blank">ST-M2</a>
+      </li>
+    </ul>
+    <!-- ################################################################################################ -->
+  </section>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <div class="hoc container clear"> 
+    <!-- ################################################################################################ -->
+    <div class="sectiontitle">
+      <p class="nospace font-xs">Increasing the intra-pair image quality with</p>
+      <h6 class="heading font-x2">Synthetic Image Deterioration</h6>
+    </div>
+    <ul class="nospace group team">
+      <li class="one_quarter first">
+        <figure><div class="imageBox"><img style="border:2px solid black" src="images/degrade_0.png" alt=""></div>
+          <figcaption><strong>Original High Quality Image</strong>
+            <em>250 x 250 pixel</em>
+            <br>Quality Score: 0.734</br>
+            </figcaption>
+        </figure>
+      </li>
+      <li class="one_quarter">
+        <figure>
+          <div class="imageBox">
+            <img class="imageInn" style="border:2px solid black" src="images/degrade_1.png" alt="">
+            <img class="hoverImg" style="border:2px solid black" src="images/degrade_1_hover.png" alt="">
+          </div>
+          <figcaption>
+            <strong>Degraded with Scale Factor: 2</strong>
+            <em>125 x 125 pixel</em>
+            <br>Quality Score: 0.578</br>
+          </figcaption>
+        </figure>
+      </li>
+      <li class="one_quarter">
+        <figure>
+          <div class="imageBox">
+            <img class="imageInn" style="border:2px solid black" src="images/degrade_2.png" alt="">
+            <img class="hoverImg" style="border:2px solid black" src="images/degrade_2_hover.png" alt="">
+          </div>
+          <figcaption>
+            <strong>Degraded with Scale Factor: 4</strong>
+            <em>62 x 62 pixel</em>
+            <br>Quality Score: 0.517</br>
+          </figcaption>
+        </figure>
+      </li>
+      <li class="one_quarter">
+        <figure>
+          <div class="imageBox">
+            <img class="imageInn" style="border:2px solid black" src="images/degrade_3.png" alt="">
+            <img class="hoverImg" style="border:2px solid black" src="images/degrade_3_hover.png" alt="">
+          </div>
+          <figcaption>
+            <strong>Degraded with Scale Factor: 8</strong>
+            <em>31 x 31 pixel</em>
+            <br>Quality Score: 0.420</br>
+          </figcaption>
+        </figure>
+      </li>
+    </ul>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper gradient">
+  <section id="services" class="hoc container clear">
+    <!-- ################################################################################################ -->
+    <ul class="nospace group elements elements-four">
+      <li class="one_quarter first">
+        <article><a href="pages/download.html"><i class="fas fa-download"></i></a>
+          <h6 class="heading">Download</h6>
+          <p>database and more</p>
+        </article>
+      </li>
+      <li class="one_quarter">
+        <article><a href="pages/examples.html"><i class="fas fa-camera"></i></a>
+          <h6 class="heading">Example Images</h6>
+          <p>look into the dataset</p>
+        </article>
+      </li>
+      <li class="one_quarter">
+        <article><a href="pages/citation.html"><i class="fas fa-book"></i></a>
+          <h6 class="heading">Citation</h6>
+          <p>please consider a citation</p>
+        </article>
+      </li>
+      <li class="one_quarter">
+        <article><a href="pages/relwork.html"><i class="fas fa-arrows-alt-h"></i></a>
+          <h6 class="heading">Related Work</h6>
+          <p>other LFW derivatives</p>
+        </article>
+      </li>
+    </ul>
+    <!-- ################################################################################################ -->
+  </section>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear">
+    <!-- ################################################################################################ -->
+    <p class="fl_left">Copyright &copy; 2021 - All Rights Reserved - <a href="https://github.com/martlgap/xqlfw">https://github.com/martlgap/xqlfw</a></p>
+    <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+<!-- Homepage specific -->
+<script src="layout/scripts/jquery.easypiechart.min.js"></script>
+<!-- / Homepage specific -->
+</body>
+</html>
