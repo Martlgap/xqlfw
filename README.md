@@ -38,14 +38,15 @@ containing the absolute path to a directory containing your embedding .npy files
 ### 📖 Cite
 If you use our code please consider citing:
 ~~~tex
-@misc{knoche2021crossquality,
-  title={Cross-Quality LFW: A Database for Analyzing
-    Cross-Resolution Image Face Recognition in Unconstrained Environments},
-  author={Martin Knoche and Stefan Hörmann and Gerhard Rigoll},
+@INPROCEEDINGS{9666960,
+  author={Knoche, Martin and Hoermann, Stefan and Rigoll, Gerhard},
+  booktitle={2021 16th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2021)}, 
+  title={Cross-Quality LFW: A Database for Analyzing Cross- Resolution Image Face Recognition in Unconstrained Environments}, 
   year={2021},
-  eprint={2108.10290},
-  archivePrefix={arXiv},
-  primaryClass={cs.CV}
+  volume={},
+  number={},
+  pages={1-5},
+  doi={10.1109/FG52635.2021.9666960}
 }
 ~~~
 and mabybe also:
