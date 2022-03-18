@@ -38,7 +38,7 @@ containing the absolute path to a directory containing your embedding .npy files
 ### 📖 Cite
 If you use our code please consider citing:
 ~~~tex
-@INPROCEEDINGS{9666960,
+@inproceedings{knoche2021xqlfw,
   author={Knoche, Martin and Hoermann, Stefan and Rigoll, Gerhard},
   booktitle={2021 16th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2021)}, 
   title={Cross-Quality LFW: A Database for Analyzing Cross- Resolution Image Face Recognition in Unconstrained Environments}, 
