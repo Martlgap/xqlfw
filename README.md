@@ -49,7 +49,7 @@ If you use our code please consider citing:
   doi={10.1109/FG52635.2021.9666960}
 }
 ~~~
-and mabybe also:
+and maybe also:
 ~~~tex
 @TechReport{LFWTech,
   author={Gary B. Huang and Manu Ramesh and Tamara Berg
